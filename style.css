@@ -1,0 +1,192 @@
+.header{
+margin-top:-1em;
+margin-left:-1em;
+margin-right:-1em;
+background:#1f7a7a;
+height:60px;
+position:fixed;
+z-index: 2
+}
+
+.clear{
+clear:both;
+}
+
+.page1{
+overflow-x:hidden;
+
+z-index:1;
+}
+ul li{
+
+	float: right;
+    color: white;
+    padding-right:60px;
+    padding-top: 23px;
+    font-size:15px;
+    list-style: none;
+    font-family:sans-serif;
+	}
+
+.logo{
+height:45%;
+width:45%;
+padding-right:62px;
+z-index:2;
+}
+
+
+a:hover.Hom{
+background-color:white;
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+ cursor: pointer;
+ color:white;
+ text-decoration:none;
+ border-top: 24px solid white;
+ border-bottom:16px solid white;
+ color:#1f7a7a;
+}
+a:hover.Abo{
+background-color:white;
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+ cursor: pointer;
+ color:white;
+ text-decoration:none;
+ border-top: 24px solid white;
+ border-bottom:16px solid white;
+ color:#1f7a7a;
+}
+a:hover.How{
+background-color:white;
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+ cursor: pointer;
+ color:white;
+ text-decoration:none;
+ border-top: 24px solid white;
+ border-bottom:16px solid white;
+ color:#1f7a7a;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+a:hover.con{
+background-color:white;
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+ cursor: pointer;
+ color:white;
+ text-decoration:none;
+ border-top: 24px solid white;
+ border-bottom:16px solid white;
+ color:#1f7a7a;
+}
+
+a:hover.loc{
+background-color:white;
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+ cursor: pointer;
+ color:white;
+ text-decoration:none;
+ border-top: 24px solid white;
+ border-bottom:16px solid white;
+ color:#1f7a7a;
+}
+
+
+.Hom, .Abo, .loc, .con, .How{
+text-decoration:none;
+color:white;
+font-family:Comic Sans MS;
+}
+
+.arrows{
+z-index:-1;
+
+}
+
+.slide1txt{
+ position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  font-family:Comic Sans MS;
+
+  background-color:rgba(0,0,0,.4);
+  font-size:21px;
+
+}
+.slide2txt{
+ position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  font-family:Comic Sans MS;
+  background-color:rgba(0,0,0,.4);
+ font-size:21px;
+}
+.slide3txt{
+ position: absolute;
+  bottom: 10%;
+  left: 5%;
+  z-index: 20;
+  color: white;
+  font-family: Comic Sans MS;
+  background-color:rgba(0,0,0,.4);
+  font-size:21px;
+}
+.carousel-inner{
+z-index: -1;
+}
+#myCarousel{
+z-index: 0;
+}
+
+
+/*PAGE2*/
+
+
+.aboutus{
+padding-top:8%;
+font-family:Comic Sans MS;
+}
+
+.page2txt{
+font-family:Comic Sans MS;
+font-size:16px;
+}
+
+.divide1{
+border-color:#1f7a7a;
+margin-right:87.5%;
+border-width: 2px;
+}
