@@ -1,4 +1,4 @@
-# abhaydham
+# abhaydhama
 One time setup:
 - Download and install git:  https://git-scm.com/download/win
 - Download and install pycharm:  https://www.jetbrains.com/pycharm/download/
